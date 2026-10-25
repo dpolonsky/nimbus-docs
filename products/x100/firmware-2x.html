@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>X100 Firmware 2.x Release Notes | Nimbus Service Docs</title>
-<meta name="product" content="X100"><meta name="version" content="2.x"><meta name="language" content="en">
-<meta name="status" content="published"><meta name="date" content="2026-10-25">
-<link rel="prev" href="specs.html">
-<style>body{font-family:system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#1e293b}
-a{color:#0369a1}.meta{color:#64748b;font-size:.9rem}.box{background:#f1f5f9;border-left:4px solid #0369a1;padding:.5rem 1rem;margin-top:1.5rem}
-.pager{display:flex;justify-content:space-between;margin-top:2rem;border-top:1px solid #e2e8f0;padding-top:1rem}</style></head>
-<body><nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &gt; <a href="../index.html">Products</a> &gt; <a href="index.html">X100 Overview</a> &gt; <a href="firmware-2x.html">X100 Firmware 2.x Release Notes</a></nav>
+<meta name="product" content="X100"><meta name="version" content="2.x"><meta name="language" content="en"><meta name="status" content="published"><meta name="date" content="2026-10-25">
+<link rel="prev" href="specs.html"><style>body{font-family:system-ui,sans-serif;margin:0;color:#1e293b;background:#f8fafc;line-height:1.6}
+header{background:#0f172a;padding:.8rem 1.5rem}header a{color:#38bdf8;font-weight:700;text-decoration:none}
+.wrap{display:flex;gap:1.5rem;max-width:1180px;margin:0 auto;padding:1.5rem}
+aside{width:250px;flex-shrink:0;font-size:.9rem}aside .box{background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:.8rem 1rem;margin-bottom:1rem}
+aside ul{padding-left:1.1rem;margin:.3rem 0}main{flex:1;min-width:0;background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:1.5rem 2rem}
+a{color:#0369a1}.m,.meta,.chunk-path{color:#64748b;font-size:.82rem}.chunk{border-top:1px solid #f1f5f9;padding-top:.3rem}
+.chunk h2{margin:.2rem 0}.chunk h3{margin:.2rem 0;font-size:1.05rem}table{border-collapse:collapse;margin:.5rem 0}
+th,td{border:1px solid #cbd5e1;padding:.35rem .6rem;text-align:left}th{background:#f1f5f9}.src{background:#f1f5f9;border-left:3px solid #0369a1;padding:.3rem .6rem;font-size:.9rem}
+.pager{display:flex;justify-content:space-between;margin-top:2rem;padding-top:1rem;border-top:1px solid #e2e8f0}</style></head><body>
+<header><a href="../../index.html">Nimbus Service Docs</a></header>
+<div class="wrap"><aside>
+<div class="box"><strong>On this page</strong><ul><li><a href="#behaviour">Behaviour that matters for support</a><ul><li><a href="#key-preserved">The pairing key is preserved</a></li><li><a href="#update-prereq">Update prerequisites</a></li></ul></li><li><a href="#how-to-update">How to update</a></li><li><a href="#history">Version history</a></li><li><a href="#known-issues">Known issues</a></li></ul></div>
+
+<div class="box"><strong>Same level</strong><ul><li><a href="specs.html">X100 Specifications</a></li><li><strong><a href="firmware-2x.html">X100 Firmware 2.x Release Notes</a></strong></li></ul></div>
+</aside><main>
+<nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &rsaquo; <a href="../index.html">Products</a> &rsaquo; <a href="index.html">X100 Overview</a> &rsaquo; <a href="firmware-2x.html">X100 Firmware 2.x Release Notes</a></nav>
 <h1>X100 Firmware 2.x Release Notes</h1>
-<p class="meta">Product: X100 &middot; Firmware: 2.x &middot; Status: published &middot; Updated: 2026-10-25</p>
-<article>
-<h3>2.x behavior that matters for support</h3>
-<ul>
-<li>The pairing key is preserved across updates. After updating, the unit reconnects on its own and <strong>no re-pairing is required</strong>.</li>
-<li>If a customer reports needing to re-pair after a 2.x update, treat it as a fault: forget the device and pair again using <a href="../../troubleshooting/connectivity/pairing-x100.html">Pairing (X100)</a>.</li>
-<li>Updates need at least 50 percent battery or a connected USB-C supply. Below that the update aborts with <a href="../../troubleshooting/errors/e17.html">E17</a>.</li>
-</ul>
-<h3>Version history</h3>
-<ul>
-<li><strong>2.4</strong>: fixes Bluetooth reconnect delay after sleep.</li>
-<li><strong>2.3</strong>: adds Wi-Fi channel auto-selection.</li>
-<li><strong>2.2</strong>: security patch, no behavior change.</li>
-</ul></article>
-
-
-<div class="pager"><span>&larr; <a href="specs.html">X100 Specifications</a></span><span></span></div>
-</body></html>
+<p class="meta">Product: X100 · Firmware: 2.x · Status: published · Updated: 2026-10-25</p>
+<section id="behaviour" class="chunk" data-chunk-path="Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Behaviour that matters for support"><p class="chunk-path">Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Behaviour that matters for support</p><h2>Behaviour that matters for support</h2><p>Two behaviours drive most X100 support cases.</p></section><section id="key-preserved" class="chunk" data-chunk-path="Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Behaviour that matters for support › The pairing key is preserved"><p class="chunk-path">Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Behaviour that matters for support › The pairing key is preserved</p><h3>The pairing key is preserved</h3><p>Firmware 2.x keeps the pairing key across updates. After an update the unit reconnects on its own and <strong>no re-pairing is needed</strong>. This is different from the X200, see <a href="../x200/firmware-3x.html#key-reset">X200 key reset</a>.</p></section><section id="update-prereq" class="chunk" data-chunk-path="Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Behaviour that matters for support › Update prerequisites"><p class="chunk-path">Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Behaviour that matters for support › Update prerequisites</p><h3>Update prerequisites</h3><p>The update needs at least 50 percent charge or a connected USB-C supply. Below that it aborts with <a href="../../troubleshooting/errors/e17.html">E17</a>.</p></section><section id="how-to-update" class="chunk" data-chunk-path="Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › How to update"><p class="chunk-path">Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › How to update</p><h2>How to update</h2><ol><li>Connect the unit to USB-C power.</li><li>In the app open <em>Devices &rarr; About &rarr; Update</em>.</li><li>Wait for the LED to stop being amber. This takes up to 10 minutes.</li><li>Check <em>About</em>: the firmware line shows the new version.</li></ol></section><section id="history" class="chunk" data-chunk-path="Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Version history"><p class="chunk-path">Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Version history</p><h2>Version history</h2><table><thead><tr><th>Version</th><th>Change</th></tr></thead><tbody><tr><td>2.4</td><td>Fixes Bluetooth reconnect delay after sleep</td></tr><tr><td>2.3</td><td>Adds Wi-Fi channel auto-selection</td></tr><tr><td>2.2</td><td>Security patch, no behaviour change</td></tr></tbody></table></section><section id="known-issues" class="chunk" data-chunk-path="Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Known issues"><p class="chunk-path">Nimbus Docs › Products › X100 Overview › X100 Firmware 2.x Release Notes › Known issues</p><h2>Known issues</h2><p>If a customer reports having to pair again after a 2.x update, treat it as a fault. Forget the device on both sides and pair again with <a href="../../troubleshooting/connectivity/pairing-x100.html#steps">the X100 pairing steps</a>.</p></section><h2>Referenced by</h2><ul><li><a href="../../faq/pairing.html">FAQ: Pairing</a> <span class="m">— Do I need to pair my X100 again after a firmware update?</span></li><li><a href="../../faq/updates.html">FAQ: Updates and Firmware</a> <span class="m">— What changed in X100 firmware 2.3?</span></li><li><a href="index.html">X100 Overview</a> <span class="m">— What persists</span></li><li><a href="../../troubleshooting/connectivity/pairing-x100.html">Pairing (X100, firmware 2.x)</a> <span class="m">— If it still fails</span></li><li><a href="../../troubleshooting/errors/e17.html">Error E17: Low Battery During Update</a> <span class="m">— Related topics</span></li></ul>
+<div class="pager"><span>&larr; <a href="specs.html">X100 Specifications</a></span><span></span></div></main></div></body></html>

@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Error E42: Pairing Key Mismatch | Nimbus Service Docs</title>
-<meta name="product" content="X200"><meta name="version" content="3.x"><meta name="language" content="en">
-<meta name="status" content="published"><meta name="date" content="2026-10-25">
-<link rel="prev" href="e17.html">
-<style>body{font-family:system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#1e293b}
-a{color:#0369a1}.meta{color:#64748b;font-size:.9rem}.box{background:#f1f5f9;border-left:4px solid #0369a1;padding:.5rem 1rem;margin-top:1.5rem}
-.pager{display:flex;justify-content:space-between;margin-top:2rem;border-top:1px solid #e2e8f0;padding-top:1rem}</style></head>
-<body><nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &gt; <a href="../index.html">Troubleshooting</a> &gt; <a href="index.html">Error Codes</a> &gt; <a href="e42.html">Error E42: Pairing Key Mismatch</a></nav>
-<h1>Error E42: Pairing Key Mismatch</h1>
-<p class="meta">Product: X200 &middot; Firmware: 3.x &middot; Status: published &middot; Updated: 2026-10-25</p>
-<article>
-<p class="meta">Applies to: <strong>X200, firmware 3.x</strong>.</p>
-<h3>Meaning</h3>
-<p>E42, <em>Pairing key mismatch</em>. The app and the unit hold different pairing keys. This normally happens after a 3.x update, because the update resets the unit's key.</p>
-<h3>Steps</h3>
-<ol>
-<li>Re-enable pairing mode as described in <a href="../procedures/re-enable-pairing-mode.html">Re-enable Pairing Mode</a>, then pair again.</li>
-<li>If E42 appears again, remove the unit from the app (<em>Devices &rarr; unit &rarr; Remove</em>), then run the <a href="../procedures/factory-reset.html">Factory Reset Procedure</a> and add the unit as new.</li>
-</ol>
-<h3>Why a reset works</h3>
-<p>A factory reset clears the old key on the unit and the removal clears it in the app, so both start with no key and negotiate a new one.</p>
-<p>Back to <a href="../connectivity/pairing-x200.html">Pairing (X200)</a>.</p></article>
+<meta name="product" content="X200"><meta name="version" content="3.x"><meta name="language" content="en"><meta name="status" content="published"><meta name="date" content="2026-10-25">
+<link rel="prev" href="e17.html"><style>body{font-family:system-ui,sans-serif;margin:0;color:#1e293b;background:#f8fafc;line-height:1.6}
+header{background:#0f172a;padding:.8rem 1.5rem}header a{color:#38bdf8;font-weight:700;text-decoration:none}
+.wrap{display:flex;gap:1.5rem;max-width:1180px;margin:0 auto;padding:1.5rem}
+aside{width:250px;flex-shrink:0;font-size:.9rem}aside .box{background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:.8rem 1rem;margin-bottom:1rem}
+aside ul{padding-left:1.1rem;margin:.3rem 0}main{flex:1;min-width:0;background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:1.5rem 2rem}
+a{color:#0369a1}.m,.meta,.chunk-path{color:#64748b;font-size:.82rem}.chunk{border-top:1px solid #f1f5f9;padding-top:.3rem}
+.chunk h2{margin:.2rem 0}.chunk h3{margin:.2rem 0;font-size:1.05rem}table{border-collapse:collapse;margin:.5rem 0}
+th,td{border:1px solid #cbd5e1;padding:.35rem .6rem;text-align:left}th{background:#f1f5f9}.src{background:#f1f5f9;border-left:3px solid #0369a1;padding:.3rem .6rem;font-size:.9rem}
+.pager{display:flex;justify-content:space-between;margin-top:2rem;padding-top:1rem;border-top:1px solid #e2e8f0}</style></head><body>
+<header><a href="../../index.html">Nimbus Service Docs</a></header>
+<div class="wrap"><aside>
+<div class="box"><strong>On this page</strong><ul><li><a href="#meaning">Meaning</a></li><li><a href="#why">Why it happens</a></li><li><a href="#steps">Steps</a><ul><li><a href="#steps-retry">Stage 1: re-enable pairing</a></li><li><a href="#steps-reset">Stage 2: remove and reset</a></li></ul></li><li><a href="#why-reset-works">Why a reset works</a></li><li><a href="#prevention">Prevention</a></li></ul></div>
 
-<div class="box"><strong>Related topics</strong><ul><li><a href="../procedures/factory-reset.html">Factory Reset Procedure</a></li><li><a href="../connectivity/pairing-x200.html">Pairing (X200, firmware 3.x)</a></li></ul></div>
-<div class="pager"><span>&larr; <a href="e17.html">Error E17: Low Battery During Update</a></span><span></span></div>
-</body></html>
+<div class="box"><strong>Same level</strong><ul><li><a href="e17.html">Error E17: Low Battery During Update</a></li><li><strong><a href="e42.html">Error E42: Pairing Key Mismatch</a></strong></li></ul></div>
+</aside><main>
+<nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &rsaquo; <a href="../index.html">Troubleshooting</a> &rsaquo; <a href="index.html">Error Codes</a> &rsaquo; <a href="e42.html">Error E42: Pairing Key Mismatch</a></nav>
+<h1>Error E42: Pairing Key Mismatch</h1>
+<p class="meta">Product: X200 · Firmware: 3.x · Status: published · Updated: 2026-10-25</p>
+<section id="meaning" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Meaning"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Meaning</p><h2>Meaning</h2><p>E42, <em>Pairing key mismatch</em>. The app and the unit hold different pairing keys. Applies to X200 firmware 3.x.</p></section><section id="why" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Why it happens"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Why it happens</p><h2>Why it happens</h2><p>The 3.x update resets the unit&rsquo;s key, see <a href="../../products/x200/firmware-3x.html#key-reset">the 3.x key reset</a>. The app keeps the old key, so every handshake is rejected with E42. The user-facing symptom is described in <a href="../connectivity/pairing-x200.html#cause">Pairing (X200), Cause</a>.</p></section><section id="steps" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Steps"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Steps</p><h2>Steps</h2><p>Two stages.</p></section><section id="steps-retry" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Steps › Stage 1: re-enable pairing"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Steps › Stage 1: re-enable pairing</p><h3>Stage 1: re-enable pairing</h3><p>Follow <a href="../procedures/re-enable-pairing-mode.html">Re-enable Pairing Mode</a> and pair again. Try this twice.</p></section><section id="steps-reset" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Steps › Stage 2: remove and reset"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Steps › Stage 2: remove and reset</p><h3>Stage 2: remove and reset</h3><ol><li>In the app choose <em>Devices &rarr; unit &rarr; Remove</em>.</li><li>Run the <a href="../procedures/factory-reset.html">Factory Reset Procedure</a>.</li><li>Add the unit as new.</li></ol></section><section id="why-reset-works" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Why a reset works"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Why a reset works</p><h2>Why a reset works</h2><p>Removing the unit clears the old key in the app, and the reset clears it on the unit. Both start with no key and negotiate a new one.</p></section><section id="prevention" class="chunk" data-chunk-path="Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Prevention"><p class="chunk-path">Nimbus Docs › Troubleshooting › Error Codes › Error E42: Pairing Key Mismatch › Prevention</p><h2>Prevention</h2><p>Update to 3.2 or later: the app warns before the key reset. After any 3.x update, run Re-enable Pairing Mode immediately.</p></section><h2>Referenced by</h2><ul><li><a href="../../faq/errors-network.html">FAQ: Error Codes and Wi-Fi</a> <span class="m">— What does error E42 mean and how does it relate to firmware 3.x?</span></li><li><a href="../../products/index.html">Products</a> <span class="m">— Pairing key</span></li><li><a href="../../products/x200/firmware-3x.html">X200 Firmware 3.x Release Notes</a> <span class="m">— What you will see</span></li><li><a href="../connectivity/pairing-x200.html">Pairing (X200, firmware 3.x)</a> <span class="m">— Symptoms</span></li><li><a href="e17.html">Error E17: Low Battery During Update</a> <span class="m">— After a successful X200 update</span></li><li><a href="index.html">Error Codes</a> <span class="m">— Code reference</span></li><li><a href="../index.html">Troubleshooting</a> <span class="m">— Triage table</span></li><li><a href="../procedures/factory-reset.html">Factory Reset Procedure</a> <span class="m">— Used from</span></li><li><a href="../procedures/re-enable-pairing-mode.html">Re-enable Pairing Mode</a> <span class="m">— Result</span></li></ul>
+<div class="pager"><span>&larr; <a href="e17.html">Error E17: Low Battery During Update</a></span><span></span></div></main></div></body></html>
