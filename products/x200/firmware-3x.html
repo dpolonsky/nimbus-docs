@@ -10,7 +10,21 @@ a{color:#0369a1}.meta{color:#64748b;font-size:.9rem}.box{background:#f1f5f9;bord
 <body><nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &gt; <a href="../index.html">Products</a> &gt; <a href="index.html">X200 Overview</a> &gt; <a href="firmware-3x.html">X200 Firmware 3.x Release Notes</a></nav>
 <h1>X200 Firmware 3.x Release Notes</h1>
 <p class="meta">Product: X200 &middot; Firmware: 3.x &middot; Status: published &middot; Updated: 2026-10-25</p>
-<article><p>The 3.x update resets the pairing key. Re-enable pairing mode in the app after updating.</p></article>
+<article>
+<h3>Important: the 3.x update resets the pairing key</h3>
+<p>Every 3.x update regenerates the unit's pairing key. The app still holds the old key, so the two no longer match and the unit shows as <em>Offline</em> until it is paired again.</p>
+<h3>What to do after updating</h3>
+<ol>
+<li>Wait until the LED stops being amber (the update takes up to 10 minutes).</li>
+<li>In the app, follow <a href="../../troubleshooting/procedures/re-enable-pairing-mode.html">Re-enable Pairing Mode</a>.</li>
+<li>If the app reports <a href="../../troubleshooting/errors/e42.html">E42</a>, run the <a href="../../troubleshooting/procedures/factory-reset.html">Factory Reset Procedure</a>.</li>
+</ol>
+<h3>Version history</h3>
+<ul>
+<li><strong>3.2</strong>: key reset now announced in the app before the update starts.</li>
+<li><strong>3.1</strong>: improves 5 GHz roaming.</li>
+<li><strong>3.0</strong>: new pairing flow, pairing key reset on update. Rollback to 2.x is not supported, see <a href="../../troubleshooting/procedures/firmware-rollback.html">Firmware Rollback</a>.</li>
+</ul></article>
 
 <div class="box"><strong>Related topics</strong><ul><li><a href="../../troubleshooting/connectivity/pairing-x200.html">Pairing (X200, firmware 3.x)</a></li><li><a href="../../troubleshooting/procedures/re-enable-pairing-mode.html">Re-enable Pairing Mode</a></li></ul></div>
 <div class="pager"><span>&larr; <a href="specs.html">X200 Specifications</a></span><span></span></div>

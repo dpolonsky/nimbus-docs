@@ -10,7 +10,27 @@ a{color:#0369a1}.meta{color:#64748b;font-size:.9rem}.box{background:#f1f5f9;bord
 <body><nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &gt; <a href="../index.html">Troubleshooting</a> &gt; <a href="index.html">Connectivity</a> &gt; <a href="wifi-dropouts.html">Wi-Fi Dropouts</a></nav>
 <h1>Wi-Fi Dropouts</h1>
 <p class="meta">Product: All &middot; Firmware: - &middot; Status: published &middot; Updated: 2026-10-25</p>
-<article><p>Move the unit away from 2.4 GHz interference, then check the router channel.</p></article>
+<article>
+<p class="meta">Applies to: X100 and X200.</p>
+<h3>Symptoms</h3>
+<ul><li>Unit goes Offline every few minutes and comes back by itself.</li><li>Streaming stutters, then recovers.</li></ul>
+<h3>Likely causes, in order of frequency</h3>
+<ol>
+<li><strong>2.4 GHz interference</strong> from microwaves, cordless phones or neighbouring routers.</li>
+<li><strong>Router set to 5 GHz only</strong>. The X100 supports 2.4 GHz only.</li>
+<li><strong>Router channel 12 to 14</strong>, which some units do not scan.</li>
+<li>Router band steering moving the unit between bands.</li>
+</ol>
+<h3>Steps</h3>
+<ol>
+<li>Move the unit at least 1 m away from other electronics and 2 m from a microwave.</li>
+<li>In the router set the 2.4 GHz channel to 1, 6 or 11 (not Auto) and the width to 20 MHz.</li>
+<li>X100 only: make sure the 2.4 GHz band is enabled and has its own SSID.</li>
+<li>X200 only: if roaming between mesh nodes causes drops, pin the unit to the nearest node, or update to firmware 3.1 or later which improves 5 GHz roaming.</li>
+<li>Restart the router, then the unit.</li>
+</ol>
+<h3>Verify</h3>
+<p>The unit stays Online for 30 minutes. If it still drops, note the time of each drop and contact support; this is not a pairing issue, so a factory reset will not help.</p></article>
 
 
 <div class="pager"><span>&larr; <a href="pairing-x200.html">Pairing (X200, firmware 3.x)</a></span><span></span></div>

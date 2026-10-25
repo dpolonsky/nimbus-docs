@@ -10,7 +10,23 @@ a{color:#0369a1}.meta{color:#64748b;font-size:.9rem}.box{background:#f1f5f9;bord
 <body><nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &gt; <a href="../index.html">Troubleshooting</a> &gt; <a href="index.html">Connectivity</a> &gt; <a href="pairing-x200.html">Pairing (X200, firmware 3.x)</a></nav>
 <h1>Pairing (X200, firmware 3.x)</h1>
 <p class="meta">Product: X200 &middot; Firmware: 3.x &middot; Status: published &middot; Updated: 2026-10-25</p>
-<article><p>On X200 (firmware 3.x) the update resets the pairing key. Re-enable pairing mode in the app, then pair. If error E42 persists, run the Factory reset procedure.</p></article>
+<article>
+<p class="meta">Applies to: <strong>X200, firmware 3.x</strong> only. For X100 use <a href="pairing-x100.html">Pairing (X100)</a>.</p>
+<h3>Symptoms</h3>
+<ul><li>"My X200 won't pair with the app after the update."</li><li>Unit shows Offline in the app, LED is white steady.</li><li>App shows error <a href="../errors/e42.html">E42</a> when pairing.</li></ul>
+<h3>Cause</h3>
+<p>On X200 (firmware 3.x) the update resets the pairing key. The app still holds the old key, so the unit is rejected until the pairing is renewed. See <a href="../../products/x200/firmware-3x.html">X200 Firmware 3.x Release Notes</a>.</p>
+<h3>Steps</h3>
+<ol>
+<li>Confirm the update has finished: the LED must not be amber.</li>
+<li>Re-enable pairing mode in the app, following <a href="../procedures/re-enable-pairing-mode.html">Re-enable Pairing Mode</a>. The LED blinks white.</li>
+<li>Pair the unit with the app and confirm the code shown on both.</li>
+<li>If error <strong>E42</strong> persists after two attempts, run the <a href="../procedures/factory-reset.html">Factory Reset Procedure</a> and pair again.</li>
+</ol>
+<h3>Verify</h3>
+<p>LED steady white, app shows Online, and <em>About &rarr; Pairing key</em> shows a date of today.</p>
+<h3>Do not</h3>
+<ul><li>Do not follow X100 steps (forget device in the unit's Settings menu). The X200 has no such menu entry.</li><li>Do not attempt a firmware rollback; it is not supported, see <a href="../procedures/firmware-rollback.html">Firmware Rollback</a>.</li></ul></article>
 
 <div class="box"><strong>Related topics</strong><ul><li><a href="../errors/e42.html">Error E42: Pairing Key Mismatch</a></li><li><a href="../procedures/factory-reset.html">Factory Reset Procedure</a></li><li><a href="../../products/x200/firmware-3x.html">X200 Firmware 3.x Release Notes</a></li></ul></div>
 <div class="pager"><span>&larr; <a href="pairing-x100.html">Pairing (X100, firmware 2.x)</a></span><span><a href="wifi-dropouts.html">Wi-Fi Dropouts</a> &rarr;</span></div>

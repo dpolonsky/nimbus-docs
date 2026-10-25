@@ -10,7 +10,19 @@ a{color:#0369a1}.meta{color:#64748b;font-size:.9rem}.box{background:#f1f5f9;bord
 <body><nav class="meta" aria-label="Breadcrumb"><a href="../../index.html">Nimbus Service Documentation</a> &gt; <a href="../index.html">Products</a> &gt; <a href="index.html">X100 Overview</a> &gt; <a href="firmware-2x.html">X100 Firmware 2.x Release Notes</a></nav>
 <h1>X100 Firmware 2.x Release Notes</h1>
 <p class="meta">Product: X100 &middot; Firmware: 2.x &middot; Status: published &middot; Updated: 2026-10-25</p>
-<article><p>2.x keeps the pairing key across updates. No re-pairing is needed after an update.</p></article>
+<article>
+<h3>2.x behavior that matters for support</h3>
+<ul>
+<li>The pairing key is preserved across updates. After updating, the unit reconnects on its own and <strong>no re-pairing is required</strong>.</li>
+<li>If a customer reports needing to re-pair after a 2.x update, treat it as a fault: forget the device and pair again using <a href="../../troubleshooting/connectivity/pairing-x100.html">Pairing (X100)</a>.</li>
+<li>Updates need at least 50 percent battery or a connected USB-C supply. Below that the update aborts with <a href="../../troubleshooting/errors/e17.html">E17</a>.</li>
+</ul>
+<h3>Version history</h3>
+<ul>
+<li><strong>2.4</strong>: fixes Bluetooth reconnect delay after sleep.</li>
+<li><strong>2.3</strong>: adds Wi-Fi channel auto-selection.</li>
+<li><strong>2.2</strong>: security patch, no behavior change.</li>
+</ul></article>
 
 
 <div class="pager"><span>&larr; <a href="specs.html">X100 Specifications</a></span><span></span></div>
