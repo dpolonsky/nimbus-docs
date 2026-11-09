@@ -1,30 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/specs.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/firmware-2x.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/specs.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/firmware-3x.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x100.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x200.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/wifi-dropouts.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e17.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e42.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/re-enable-pairing-mode.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/factory-reset.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/firmware-rollback.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/legacy-x50-pairing.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/faq/index.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/faq/pairing.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/faq/updates.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/faq/errors-network.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/files/x200-service-manual.pdf</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://dpolonsky.github.io/nimbus-docs/img/x200-pairing-diagram.png</loc><lastmod>2026-10-25</lastmod></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/faq/errors-network.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/faq/hardware.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/faq/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/faq/pairing.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/faq/updates.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/firmware-2x.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/fw-2-0.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/fw-2-1.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/fw-2-2.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/fw-2-3.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/fw-2-4.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x100/specs.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/firmware-3x.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/fw-3-0.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/fw-3-1.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/fw-3-2.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/fw-3-3.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/fw-3-4.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x200/specs.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/firmware-4x.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/fw-4-0.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/fw-4-1.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/fw-4-2.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/fw-4-3.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x300/specs.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x400/firmware-4x.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x400/fw-4-0.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x400/fw-4-1.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x400/fw-4-2.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x400/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x400/specs.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x500/firmware-5x.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x500/fw-5-0.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x500/fw-5-1.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x500/fw-5-2.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x500/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/products/x500/specs.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x100.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x200.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x300.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x400.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/pairing-x500.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/wifi-x100.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/wifi-x200.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/wifi-x300.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/wifi-x400.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/connectivity/wifi-x500.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e05.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e09.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e11.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e14.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e17.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e19.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e21.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e23.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e24.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e31.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e33.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e37.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e42.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e43.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e45.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e48.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e49.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e52.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e53.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e55.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e58.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e61.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e62.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e67.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e71.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e77.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e81.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e84.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e90.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/e95.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/errors/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/legacy-x50-pairing.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/bluetooth-permission.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/check-router-band.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/clear-app-cache.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/enable-6ghz.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/export-diagnostic-log.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/factory-reset-x100.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/factory-reset-x300.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/factory-reset-x400.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/factory-reset-x500.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/factory-reset.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/firmware-rollback.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/index.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/re-enable-pairing-mode.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/relink-cloud-account.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/replace-battery.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/rotate-key-manually.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/safe-mode.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/support-checklist.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/update-app.html</loc></url>
+<url><loc>https://dpolonsky.github.io/nimbus-docs/troubleshooting/procedures/usb-cable-test.html</loc></url>
 </urlset>
